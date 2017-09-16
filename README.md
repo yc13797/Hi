@@ -7,3 +7,6 @@
 # Server端:
 1.完成socket(),bind(),listen()这些初始化工作后，调用accept()方法阻塞等待(其实就是进入一个死循环),等待CLient的connect()方法连接 Client端: 
 2.先调用socket(),然后调用connect()想要与Server端进行连接，这个时候就会进行传说中的TCP三次握手，也就是在Client 发起connect()，并且Server进入accept()阻塞等待时发生三次握手。
+
+# 效果请访问
+https://yc13797.github.io/Hi/
